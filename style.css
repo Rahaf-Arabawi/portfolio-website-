@@ -20,7 +20,7 @@ nav{
   color: white;
   font-size: larger;
   overflow: hidden;
-  padding: 10px;
+  /* padding: 10px; */
   position: fixed;
  /* z-index: 1000;  */
 }
@@ -113,7 +113,7 @@ li a:hover{
 
 
 /************************/
-/* section */
+/* home */
 .home-desc{
  padding: 280px 300px; 
   color: white;
@@ -123,8 +123,12 @@ li a:hover{
 }
 .home-desc img{
   float: left;
-   margin-left: 5px; 
+   margin-left: 80px; 
    width: 360px;
+   padding: 40px;
+}
+.p-home{
+  margin-left: 90px;
 }
 .home-desc h2{
   font-size: 28px;
@@ -133,7 +137,7 @@ li a:hover{
 color: #FFcfcf;
 }
 .home-desc p{
-  margin-top: 15px;
+  margin-top: 20px;
 } 
 .home-desc .home-btn{
   padding: 15px 25px;
@@ -144,38 +148,35 @@ color: #FFcfcf;
   box-shadow: 0px 0px 15px #FFcfcf;
   cursor: pointer;
   border: none;
-}
+} 
 
 
 /************************/
 /* about */
-.about-desc{
- display: flex;
- align-items: center;
- gap: 20px;
-}
-.about-desc img{
-  float: left;
-  margin-left: 5px; 
-  width: 360px;
-}
+
 .about-desc h1{
-  font-size: 28px;
+  margin-top: 150px;
+text-align: center;
+color: white;
+font-size: 40px;
+padding-top: 80px;
 }
 .about-desc h1 span{
   color: #FFcfcf;
 }
-.about-desc p{
+.p-about h2{
   margin-top: 15px;
+  color: white;
+  padding: 40px;
+}
+.p-about p{
+  /* margin-top: 15px; */
+  color: white;
+  padding: 40px;
 }
 
 /************************/
 /* Education */
-.Education-desc{
-  display: flex;
- align-items: center;
- gap: 20px;
-}
 .Education-desc h2{
 margin-top: 150px;
 text-align: center;
@@ -186,15 +187,36 @@ padding-top: 80px;
 .Education-desc h2 span{
   color:#FFcfcf; 
 }
-.Education-desc img{
-  width: 210px;
-  height: 190px;
-}
-.img{
+.Education1{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+ .card-education{
+  object-fit: cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 30%;
+  margin-bottom: 20px;
+ 
+}
+.card-education img{
+  max-width: 100%;
   transition: 4s ease;
+  box-shadow: 10px 10px 15px black;
+}
+.card-education img:hover{
+  transform: translateY(-20px);
+}
+ .contect-education{
+  bottom: 185px;
+  height: 280px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
 }
 
 /************************/
@@ -211,47 +233,33 @@ padding-top: 80px;
 }
  .project1 {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
+ align-items: center;
+  justify-content: center;
   gap: 30px;
- margin-top: 60px; 
+ margin-top: 100px; 
  flex-wrap: wrap;
 } 
-.card img{
- box-shadow: 10px 10px 15px black;
- margin-bottom: 10px;
-}
-.card:hover{
-  transform: translateY(-20px);
-}
-.card{
+.card-project{
   display: flex;
-  flex-direction: column;
+  width: 325px;
+  background-color: white;
+ box-shadow: 10px 10px 15px black;
+ /* margin-bottom: 10px; */
+ border-radius: 8px;
+ overflow: hidden;
+ margin: 20px;
+ flex-direction: column;
   align-items: center;
   transition: 4s ease;
 }
+.card-project img{
+  width: 100%;
+  height: auto;
 
-
-/***************/
-/* contact */
- #contact {
-  background-color: rgb(40, 40, 40);
-}   
-
-.container h2 {
-  font-size: 36px;
-  color: #343a40;
 }
-
-.container .btn-primary {
-  padding: 10px 20px;
-  border-radius: 30px;
+.card-project:hover{
+  transform: translateY(-20px);
 }
-
-.container .btn-primary:hover {
-  background-color: #0056b3;
-  color: #fff;
-} 
 
 
 /***************/

@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="../portfolio-website-/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   
 </head>
 <body class="main">
 
     <!-- navbar -->
     <nav>
         
-         <img class="nav-img1" src="../portfolio-website-/image1.jpeg" width="40px">
+         <img class="nav-img1" src="../portfolio-website-/image1.jpeg" width="60px">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+           <li><a href="#education">Education</a></li>
             <li><a href="#project">Project</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
            </ul>
            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
@@ -31,38 +32,59 @@
         <!-- home -->
         <section id="home">
         <div class="home-desc">
-            
-            <h2>Hello It`s Me <br><span>Rahaf Abd-Alrahman</span></h2>
-            <p>Graphic design and web design</p>
-            <br>
-            <button class="home-btn"> Download CV</button>
-            <br>
+           
             <img src="../portfolio-website-/image2.jpeg"> 
-        </div>
+            <div class="p-home">
+              <h2>Hello It`s Me <br><span>Rahaf Abd-Alrahman</span></h2>
+              <p>Graphic design and web design</p>
+              <br>
+              <button class="home-btn"> Download CV</button>
+              <br>
+            </div>
+          </div>
        </section> 
 
        
     <!-- about -->
         <section id="about" class="about"> 
         <div class="about-desc">
-            <h1>About <span>Me</span></h1>\
+            <h1>About <span>Me</span></h1>
+        </div>
             <br>
+            <br>
+            <div class="p-about">
             <h2>Graphic design and web design</h2>
             <p>My name is Rahaf, I am studying e-marketing at Al-Balqa University. <br>I am learning programming at Orange Academy.<br> I have graphic design skills and I am learning artificial intelligence.<br> I want to learn new things and master the English language.</p>
-            <div class="about-img">
-                <img src="../portfolio-website-/image6.jpeg" width="400px" height="430px">
-        </div>
        </div> 
         </section> 
 
         <!-- Education -->
         <section id="Education">
             <div class="Education-desc">
-                
-                <h2>My <br><span>Education</span></h2>
-                <img class="img" src="../portfolio-website-/image7.jpeg" alt="">
-                <img class="img" src="../portfolio-website-/image8.jpeg" alt="">
+                <h2>My <span>Education</span></h2>
             </div>
+                <br>
+                <br>
+                <div class="Education1">
+                  <div class="card-education">
+                <img class="img" src="../portfolio-website-/image7.jpeg" alt="">
+                <div class="contect-education">
+                <p>I am now training in programming at Orange Academy 
+                  <br>to gain experience that will help me in the job market in the future</p>
+                </div>
+                </div>
+          </div>
+
+          <div class="Education1">
+            <div class="card-education">
+          <img class="img" src="../portfolio-website-/image8.jpeg" alt="">
+          <div class="contect-education">
+          <p>I graduated from the College of Al-Balqa Applied University, majoring in e-marketing.
+          <br> I obtained a comprehensive successful certificate with a GPA of 75.7, third in Aqaba, 
+          <br>majoring in marketing.</p>
+          </div>
+        </div>
+      </div>
            </section> 
 
 
@@ -70,33 +92,36 @@
          <section di="project" class="project"> 
             <div class="project-desc">
        <h1>My <span>Work</span> </h1>
+      </div>
+       <br>
+       <br>
         <div class="Project1">
-        <div class="card">
-        <img src="../portfolio-website-/image3.jpeg" width="350px" height="350px">
-        
-            <h1>Bussiness Card</h1>
-           
+        <div class="card-project">
+          <img src="../portfolio-website-/image3.jpeg" >
+          <div class="Project1">
+            <h3>Bussiness Card</h3>
+          </div>
         </div>
 
-        <div class="card">
-            <img src="../portfolio-website-/image5.jpeg" width="350px" height="350px">
-            
-                <h1>Logo</h1>
-                
-            
-            </div>
-            <div class="card">
-                <img src="../portfolio-website-/image4.jpeg" width="350px" height="350px">
-               
-                    <h1>Brochure</h1>
-                    
-                </div> 
-        </div> 
-    </div>
-      </section>  
+        <div class="card-project">
+          <img src="../portfolio-website-/image5.jpeg" >
+          <div class="Project1">
+            <h3>Logo</h3>
+          </div>
+        </div>
+
+        <div class="card-project">
+          <img src="../portfolio-website-/image4.jpeg" >
+          <div class="Project1">
+            <h3>Brochure</h3>
+          </div>
+        </div>
+      
+      </div>
+        </section>  
 
        <!-- contact -->
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact" class="py-5 bg-light" >
         <div class="container">
           <h2 class="text-center mb-4">Contact Us</h2>
           <div class="row">  
